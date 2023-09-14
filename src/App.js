@@ -5,7 +5,7 @@ const faqs = [
   {
     title: "Where are these chairs assembled?",
     text:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusantium, quaerat temporibus quas dolore provident nisi ut aliquid ratione beatae sequi aspernatur veniam repellendus."
+      "Lorem ipsum dolor sit amett consectetur, adipisicing elit. Accusantium, quaerat temporibus quas dolore provident nisi ut aliquid ratione beatae sequi aspernatur veniam repellendus."
   },
   {
     title: "How long do I have to return my chair?",
@@ -35,7 +35,7 @@ function Accordion({ data }) {
       ))}
     </div>
   );
-}
+};
 
 function AccordionItem({ num, title, text }) {
   const [isOpen, setIsOpen] = useState(false);

@@ -41,7 +41,7 @@ function Accordion({ data }) {
           <ul>
             <li>How long do I have to return my chair?</li>
             <li>Where are these chairs assembled?</li>
-            <li>Do you ship to countries outside the EU?</li>
+            <li>Do you ship to countries outside  EU?</li>
           </ul>
           </AccordionItem>
     </div>
